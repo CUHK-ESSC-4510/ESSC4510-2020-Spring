@@ -4,6 +4,7 @@
 # Fill in the table with data in hko website with mean July climate and finish the following tasks.
 # https://www.hko.gov.hk/en/cis/monthlyElement.htm
 # Save the table with as L01.csv file
+# See the sample csv file as an example
 
 # ------------------------------------------------
 # Import libraries here (e.g. numpy, panda...)
