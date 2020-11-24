@@ -18,7 +18,7 @@ Refresh the browser.
 Assess the assignment.
 ![alt text](/img/04.png)
 
-Use repl.it to edit your assignment.
+Use repl.it to edit your assignment (e.g. [L01](https://classroom.github.com/a/227byaeX)).
 ![alt text](/img/05.png)
 
 Login with your github account.
