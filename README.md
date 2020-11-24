@@ -1,4 +1,6 @@
-# test-L01
+Fill in the table with data in hko website with mean July climate and finish these tasks:
+https://www.hko.gov.hk/en/cis/monthlyElement.htm
+
 |		|	mean temp	|	mean rainfall	|	mean pressure	|
 |	------	|	------	|	------	|	------	|
 |	2001	|	28.1	|	656.4	|	1004	|
@@ -21,3 +23,12 @@
 |	2018	|	29.1	|	341.1	|	1004	|
 |	2019	|	29.5	|	328.5	|	1004.6	|
 |	2020	|	30.2	|	125.4	|	1007.3	|
+
+
+ExL01.1 Compare the median, and the mean of the rainfall data
+
+ExL01.2 Compute the MAD, the IQR, and the standard deviation of the pressure data
+
+ExL01.3 Draw the empirical cumulative frequency distribution for the pressure data. Compare it with a histogram of the same data. 
+
+Python 3.7 or above only
