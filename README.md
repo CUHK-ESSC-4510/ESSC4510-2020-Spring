@@ -1,4 +1,4 @@
-# ESSC4510 2020 Spring Class
+# ESSC4510 2020-2021 Spring Class
 
 Please refer to the files corresponding to each tutorial (e.g. L01.* are the files for L01 assignment).
 
