@@ -94,6 +94,11 @@ ax = fig.add_subplot()
 #========================================#
 
 # Sort the data by using np.sort(<>) and store the result in another variable.
+#========================================#
+
+
+
+#========================================#
 
 # Prepare the cumulative probabilities using one of the formula provided in the slide.
 # Example: Tukey, Weibull.
