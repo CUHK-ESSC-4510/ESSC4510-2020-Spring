@@ -59,6 +59,8 @@ plt.show()
         # print(i,j)
         # do something on axes[i,j] ...
 
+
+
 #========================================#
 
 # (optional) Remove the unused axes by <ax>.set_visible(False).
