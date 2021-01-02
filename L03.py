@@ -59,6 +59,7 @@ for i in np.arange(len(lon_array)):
         # and compared against the Darwin slp at nearest_lat, nearest_lon.
         # Use scipy.stats.pearsonr(<>, <>)[0] to compute the correlation,
         # and assign the answer to the empty array slp_corr.
+        pass
 
 
 
@@ -94,6 +95,14 @@ plt.show()
 
 # Add legends, titles, axis labels.
 #========================================#
+
+
+
+#========================================#
+
+# Output the figure as .png format.
+#========================================#
+fig.savefig("Ex_3_3.png")
 
 
 
