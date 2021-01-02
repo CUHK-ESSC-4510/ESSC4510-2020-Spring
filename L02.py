@@ -31,7 +31,8 @@ import matplotlib.pyplot as plt # Drawing Graph
 # between the earliest and latest n-k data.
 # Use for loop to evaluate from k = 1 to 5
 #========================================#
-# for k in np.arange(1, 5+1):
+for k in np.arange(1, 5+1):
+    pass
 
 
 
@@ -54,9 +55,9 @@ plt.show()
 # Add legends, titles, axis labels for each subplot.
 # Double for loops can be used to go through all the panels as shown below.
 #========================================#
-# for i in np.arange(n_var-1):
-    # for j in np.arange(i+1):
-        # print(i,j)
+for i in np.arange(n_var-1):
+    for j in np.arange(i+1):
+        print(i,j)
         # do something on axes[i,j] ...
 
 
@@ -95,8 +96,8 @@ fig.savefig("Ex_2_2.png")
 # with corresponding Spearman correlation computed by scipy.stats.spearmanr(x,y)[0].
 #========================================#
 Spearman_corr = np.array([3,3])
-# for i in np.arange(n_var):
-    # for j in np.arange(n_var):
+for i in np.arange(n_var):
+    for j in np.arange(n_var):
         # do something on column i and j from HKO data
 
 
