@@ -3,6 +3,7 @@
 Please refer to the files corresponding to each tutorial (e.g. L01.* are the files for L01 assignment) in the [repository](https://github.com/CUHK-ESSC-4510/ESSC4510-2020-Spring).
 
 Link to Classroom Page: https://classroom.github.com/classrooms/74946822-cuhk-essc-4510-classroom-2021-spring
+Or here : https://github.com/CUHK-ESSC-4510
 
 Go to the assignment link (e.g. [L01](https://classroom.github.com/a/227byaeX), other submission links are listed at the bottom of this readme). Do the following steps to edit and submit your assignments.
 
