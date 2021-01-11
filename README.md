@@ -4,7 +4,7 @@ Please refer to the files corresponding to each tutorial (e.g. L01.* are the fil
 
 Link to Classroom Page: https://classroom.github.com/classrooms/74946822-cuhk-essc-4510-classroom-2021-spring
 
-Go to the assignment link (e.g. [L01](https://classroom.github.com/a/227byaeX)). Do the following steps to edit and submit your assignments.
+Go to the assignment link (e.g. [L01](https://classroom.github.com/a/227byaeX), other submission links are listed at the bottom of this readme). Do the following steps to edit and submit your assignments.
 
 Find your own student ID.
 ![alt text](/img/01.png)
