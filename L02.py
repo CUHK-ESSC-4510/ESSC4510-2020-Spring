@@ -18,6 +18,7 @@ import matplotlib.pyplot as plt # Drawing Graph
 
 # Ex 2.1
 # Read HKO climate data using the same way as in Ex 1.1.
+# You should have concatenate the data into an n x 3 array.
 #========================================#
 
 
@@ -99,7 +100,7 @@ Spearman_corr = np.array([3,3])
 for i in np.arange(n_var):
     for j in np.arange(n_var):
         # do something on column i and j from HKO data
-
+        
 
 
 #========================================#
