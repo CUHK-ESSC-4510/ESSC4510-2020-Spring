@@ -18,14 +18,60 @@ import cartopy.crs as ccrs # Map Projection
 
 #========================================#
 
+# Ex 3.2
+# Get the rainfall data from the given .nc file.
+#========================================#
+data_3_2 = xr.open_dataset("temp_precip_city_China_July_1998-2015.nc")
+prec_BJ, prec_WH, prec_HK = data_3_2["prec_BJ"], data_3_2["prec_WH"], data_3_2["prec_HK"]
+print(prec_HK)
+
+
+
+#========================================#
+
+# Select all July dates
+#========================================#
+dates = prec_HK["date"]
+# The dates are in YYYYMMDD.
+# Two possible approaches:
+# 1. Convert the dates into string and check if the MM substring is 07,
+# 2. Use modulus to get the last 4 digits and check if they are within the range of 700-799.
+# The July dates should be in the form of a boolean array, with respect to all dates.
+
+
+
+#========================================#
+
+# Calculate the probabilities of having a rainy day in July,
+# which is the amounts of rainy days in July over the total numbers of days in July.
+# Use the boolean array obtained in above selection for filtering, and
+# apply array comparison to get the dates when the rainfall is > 1mm.
+# Something along the lines like <prec>[<July dates>] and ... > 1.
+# The numbers of True in an array is simply given by np.sum() or np.count_nonzero().
+#========================================#
+
+
+
+#========================================#
+
+# Calculate the required probabilities.
+# You may want to compute the binomial coefficients, or nCr.
+# Some approaches: https://stackoverflow.com/questions/3025162/statistics-combinations-in-python
+#========================================#
+
+
+
+#========================================#
+
+
 # Ex 3.3
 # Extract the pressure data from the given .nc file.
 #========================================#
-data = xr.open_dataset("slp_1948-2014.nc")
-slp = data["slp"]
+data_3_3 = xr.open_dataset("slp_1948-2014.nc")
+slp = data_3_3["slp"]
 print(slp)
-lat_array = data["lat"]
-lon_array = data["lon"]
+lat_array = data_3_3["lat"]
+lon_array = data_3_3["lon"]
 
 
 
