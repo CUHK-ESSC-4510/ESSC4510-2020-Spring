@@ -39,6 +39,7 @@ for k in np.arange(1, 5+1):
 
 #========================================#
 
+# Remember to plot the auto-correlation function. (Sorry)
 
 # Ex 2.2
 # Prepare a figure with 2x2 panels.
