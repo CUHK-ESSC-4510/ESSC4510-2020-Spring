@@ -225,6 +225,9 @@ def QQ_plot(time_series, var_name, mean, std, fit="Gaussian"):
 # Ex 4.3
 #================================================================================#
 # START OF FUNCTION
+# Alternatively, you can use some functions that
+# compute auto-corrlation directly, and
+# no need to create a function as below.
 #================================================================================#
 
 def lag_corr(temp, prec, city_name, k):

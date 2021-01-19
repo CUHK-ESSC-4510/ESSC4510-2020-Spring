@@ -32,6 +32,8 @@ print(prec_HK)
 # Select all July dates
 #========================================#
 dates = prec_HK["date"]
+# Remark: The dates are all in July. So no need for additional selection.
+# You can ignore the comments below.
 # The dates are in YYYYMMDD.
 # Two possible approaches:
 # 1. Convert the dates into string and check if the MM substring is 07,
