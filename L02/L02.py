@@ -39,6 +39,7 @@ for k in np.arange(1, 5+1):
 
 #========================================#
 
+# Remember to plot the auto-correlation function. (Sorry)
 
 # Ex 2.2
 # Prepare a figure with 2x2 panels.
@@ -96,7 +97,7 @@ fig.savefig("Ex_2_2.png")
 # At each iteration, fill in the array element,
 # with corresponding Spearman correlation computed by scipy.stats.spearmanr(x,y)[0].
 #========================================#
-Spearman_corr = np.array([3,3])
+Spearman_corr = np.empty([3,3])
 for i in np.arange(n_var):
     for j in np.arange(n_var):
         # do something on column i and j from HKO data
