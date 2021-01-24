@@ -37,6 +37,7 @@ print(data7)
 # or using .summary2() instead and check the scale entry.
 # The whole documentation can be viewed at 
 # https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.RegressionResults.html#statsmodels.regression.linear_model.RegressionResults.
+# Extract the required values from the instance, no hard coding is allowed!
 #========================================#
 Y = data7["Temp"]
 X = sm.add_constant(data7["Pres"]) # Adding the intercept term.
@@ -50,6 +51,14 @@ X = sm.add_constant(data7["Pres"]) # Adding the intercept term.
 # and check the probability and prediction interval, by
 # scipy.stats.norm.cdf() and scipy.stats.norm.ppf().
 #========================================#
+
+
+
+#========================================#
+
+# Plot the regression function and the 95% prediction interval.
+#========================================#
+p = np.arange(1005, 1015, 0.05)
 
 
 
