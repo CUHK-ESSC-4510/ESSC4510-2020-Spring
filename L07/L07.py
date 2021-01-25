@@ -51,6 +51,7 @@ X = sm.add_constant(data7["Pres"]) # Adding the intercept term.
 # and check the probability and prediction interval, by
 # scipy.stats.norm.cdf() and scipy.stats.norm.ppf().
 #========================================#
+p = np.arange(1005, 1015, 0.05)
 
 
 
@@ -58,7 +59,6 @@ X = sm.add_constant(data7["Pres"]) # Adding the intercept term.
 
 # Plot the regression function and the 95% prediction interval.
 #========================================#
-p = np.arange(1005, 1015, 0.05)
 
 
 
