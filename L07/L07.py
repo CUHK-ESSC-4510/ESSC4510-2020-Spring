@@ -14,10 +14,11 @@ import matplotlib.pyplot as plt # Drawing Graph
 import statsmodels.api as sm # Statistical Models
 
 
+
 #========================================#
 
 # Ex 7.1
-# Store the July temperature and pressure as a Pandas table.
+# Store the June temperature and pressure as a Pandas table.
 #========================================#
 data7 = pd.DataFrame({"Temp": [26.1, 24.5, 24.8, 24.5, 24.1, 24.3, 26.4, 24.9, 23.7, 23.5,
                     24.0, 24.1, 23.7, 24.3, 26.6, 24.6, 24.8, 24.4, 26.8, 25.2],
