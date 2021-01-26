@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt # Drawing Graph
 import statsmodels.api as sm # Statistical Models
 
 
+
 #========================================#
 
 # Ex 8.2
@@ -36,6 +37,7 @@ import statsmodels.api as sm # Statistical Models
 #========================================#
 exp_Sodium = pd.DataFrame({"Hours passed": [6, 8, 12, 24, 36, 48],
                     "Mass (g)": [75.8, 69.1, 57.3, 33.0, 18.8, 10.8]})
+
 
 
 #========================================#
