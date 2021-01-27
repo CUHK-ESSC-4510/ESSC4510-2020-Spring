@@ -33,7 +33,7 @@ n_years_nEl = len(temp_nEl)
 #========================================#
 
 # Evaluate the combined variance for the sample means,
-# which i (s_1^2/n_1 + s_2^2/n_2)^1/2.
+# which is (s_1^2/n_1 + s_2^2/n_2).
 #========================================#
 
 
@@ -51,7 +51,7 @@ n_years_nEl = len(temp_nEl)
 
 # Calculate the 95% confidence interval for the t-test.
 # The null hypothesis has a mean of zero for Delta x = x_1 - x_2.
-# Plugging the combined variance computed above,
+# Plugging the combined std computed above,
 # and ddof = min(n_1, n_2) - 1 into,
 # the function scipy.stats.t.interval(0.95, <ddof>, 0, <pooled std>).
 # Reference: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.t.html.
