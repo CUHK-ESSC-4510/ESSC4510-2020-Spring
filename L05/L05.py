@@ -42,6 +42,7 @@ n_years_nEl = len(temp_nEl)
 
 # Compute the p-value by scipy.stats.ttest_ind(<data1>, <data2>).
 # Reference: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html.
+# The argument "equal_var" should be set to a suitable boolean value.
 # The second output is the required p-value.
 #========================================#
 
