@@ -71,7 +71,7 @@ rainfall = np.array([43, 10, 4, 0, 2,
 # Initializing an empty array filled with garbage values,
 # and output the computed skewness into it.
 bootstrap_size = 1000 # Change as you like.
-skewness_bootstrap = np.full([bootstrap_size], -999)
+skewness_bootstrap = np.full([bootstrap_size], -999.9)
 for t in np.arange(bootstrap_size):
     # Calculating the skewness.
     pass
