@@ -1,0 +1,31 @@
+File
+precip_discharge_data.txt
+has time, discharge, precipitation in columns 1, 2, and 3, respectively.
+Time is in interger count of days starting Jan 1, 2002;  discharge in cfs
+and precipitation is in inches.
+
+This file was created by merging data from two sources:
+
+Stream Flow data
+Source: USGS Surface-Water Daily Data for the Nation
+Agency: US Geological Survey (USGS)
+URL: http://waterdata.usgs.gov/nwis/dv?referred_module=sw
+Station: 01358000 HUDSON RIVER AT GREEN ISLAND NY
+Date 01/01/2002 to 12/31/2009
+Discharge units are cubic feet per second
+Conversion to cubic meters per second: divide by 35.3146
+Data downloaded and reformatted by WIlliam Menke June 22, 2012
+    Time reformatted to integer count of days starting Jan 1, 2002
+
+Precipitation data
+Source: Global Surface Summary of Day
+Agency: National Atmospheric and Oceanic Administratuin (NOAA)
+URL: http://www.ncdc.noaa.gov/cgi-bin/res40.pl
+Station: 725180 14735 ALBANY COUNTY AIRPORT
+Date 01/01/2002 to 12/31/2009
+Precipitation units are inches
+Convert to mm: multiply by 25.4
+Data downloaded and reformatted by WIlliam Menke June 22, 2012
+    Time reformatted to interger count of days starting Jan 1, 2002
+    A few data values were listed as 99.99, these reset to 0.00
+
