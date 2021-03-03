@@ -13,4 +13,5 @@ L10 - Linear Algebra:
   
 L11 - Linear model:
   - eda_04.ipynb
+  - Linear model tutorial - Black Rock Forest dataset.ipynb
 
