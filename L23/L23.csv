@@ -1,0 +1,4 @@
+Hypothetical verification data for 1000 probability-of-precipitation forecasts,,,,,,,,,,,
+Forecast probability yi,0.00,0.10,0.20,0.30,0.40,0.50,0.60,0.70,0.80,0.90,1.00
+Number of times forecast,293,237,162,98,64,36,39,26,21,14,10
+Number of precipitation occurrences,9,21,34,31,25,18,23,18,17,12,9
