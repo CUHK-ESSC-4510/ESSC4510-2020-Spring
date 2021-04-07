@@ -1,5 +1,5 @@
 #========================================#
-# ESSC 4510 Tutorial 22 Python Script
+# ESSC 4510 Tutorial 17 Python Script
 # Name:
 # Student ID:
 # Sample Script made by Benjamin Loi
@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt # Drawing Graph
 
 #========================================#
 
+# Ex 17.1
 # Precipitation Data for Canandaigua in 1987 Jan.
 # Make a new array to indicate the days with rainfall,
 # by boolean comparison.

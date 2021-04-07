@@ -1,5 +1,5 @@
 #========================================#
-# ESSC 4510 Tutorial 21 Python Script
+# ESSC 4510 Tutorial 16 Python Script
 # Name:
 # Student ID:
 # Sample Script made by Benjamin Loi
@@ -17,7 +17,7 @@ import sklearn.decomposition # Statistical Decomposition Methods
 
 #========================================#
 
-# Ex 21.2
+# Ex 16.2
 # Read the SST data.
 # Generate new arrays to store the coordinates.
 #========================================#

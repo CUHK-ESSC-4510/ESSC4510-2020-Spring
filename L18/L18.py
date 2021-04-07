@@ -1,5 +1,5 @@
 #========================================#
-# ESSC 4510 Tutorial 23 Python Script
+# ESSC 4510 Tutorial 18 Python Script
 # Name:
 # Student ID:
 # Sample Script made by Benjamin Loi
@@ -15,9 +15,10 @@ import matplotlib.pyplot as plt # Drawing Graph
 
 #========================================#
 
+# Ex 18.1
 # Read the forecast data.
 #========================================#
-forecast = pd.read_csv("L23.csv", index_col=0, header=None)
+forecast = pd.read_csv("L18.csv", index_col=0, header=None)
 # print(forecast)
 yi = np.array(forecast.loc["Forecast probability yi"])
 forecast_count = np.array(forecast.loc["Number of times forecast"])
