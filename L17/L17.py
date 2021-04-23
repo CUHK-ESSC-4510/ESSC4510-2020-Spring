@@ -37,7 +37,7 @@ C_prep = np.array( [0.00, 0.04, 0.84, 0.00, 0.00,
 # for a rainy/non-rainy day to be followed by
 # another rainy/non-rainy day.
 # E.g. P(rainy tomorrow|rainy today)
-# = no. of rainy -> rainy / no. of rainy -> non-rainy.
+# = no. of rainy -> rainy / (no. of rainy -> rainy + non-rainy)
 # the function np.logical_and() and np.sum() may be needed.
 #========================================#
 # P_rtr = 
